@@ -42,12 +42,12 @@ def image_match(img_path):
     b_current, g_current, r_current = cv2.split(current_image)
     b_target, g_target, r_target = cv2.split(target_image)
 
-    # 分别进行模板匹配
+    # 对各颜色分别进行模板匹配
     res_b = cv2.matchTemplate(b_current, b_target, cv2.TM_CCOEFF_NORMED)
     res_g = cv2.matchTemplate(g_current, g_target, cv2.TM_CCOEFF_NORMED)
     res_r = cv2.matchTemplate(r_current, r_target, cv2.TM_CCOEFF_NORMED)
 
-    # 结合匹配结果（例如取平均）
+    # 结合匹配结果（直接取平均）
     res_combined = (res_b + res_g + res_r) / 3
 
     # 查找最佳匹配位置
