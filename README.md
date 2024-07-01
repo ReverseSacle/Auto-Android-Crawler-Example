@@ -1,7 +1,7 @@
 ## 前言
 
-这是一个案例，涉及以下知识
-
+这只是一个案例，安卓版Boss直聘APP自动化浏览，可获取的信息包括 职位/薪资/工作地点/经验要求/学历要求/职位要求详情页信息/工作相关标签/公司名/公司详情/职位要求详情页链接。
+涉及以下知识
 - Appium Inspector工具的使用
 - [→Appium-Python-Client库←](https://github.com/appium/python-client)
 - 爬虫的基本逻辑
