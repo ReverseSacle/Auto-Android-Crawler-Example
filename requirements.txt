@@ -1,2 +1,3 @@
-opencv-python~=4.10.0.84
 Appium-Python-Client~=4.0.0
+openpyxl~=3.1.5
+opencv-python~=4.10.0.84
