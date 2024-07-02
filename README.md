@@ -39,6 +39,7 @@ APP先手动登录一次。
 
 PC端与手机端连接同一网络，该方法容易`device offline`，推荐用USB连接。
 
+手动替换`more.png`，
 修改`config.py`中的个别变量
 
 - capabilities变量 - platformVersion改为你的手机的安卓版本
